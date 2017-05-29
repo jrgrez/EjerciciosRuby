@@ -2,7 +2,7 @@ nombres = ["Violeta", "Andino", "Clemente", "Javiera", "Paula", "Pia", "Ray"]
 
 puts "Ejercicio 1"
 
-mayores5 = nombres.select{|x| x.length > 5}
+mayores5 = nombres.select{|x| x.length < 5}
 
 print mayores5
 puts ""
