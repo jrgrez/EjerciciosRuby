@@ -12,7 +12,9 @@ estudiantes = []
 
 puts "Ejercicio 1"
 nombres.each do |x|
-	estudiantes << Student.new.name = x
+	estudiante = Student.new
+	estudiante.name = x
+	estudiantes << estudiante
 end
 
 print estudiantes
